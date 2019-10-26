@@ -64,9 +64,9 @@ a:hover {
     font-family: 'Roboto Slab', serif;
 }
 
-.btn-outline-primary {
+#display button {
     color: white;
-    border-color: white;
+    /* border-color: white; */
     margin-top: 20px;
 }
 
@@ -81,8 +81,15 @@ a:hover {
 
 #github, #whatsapp, #weatherapp, #hackathon , #stopwatch{
     text-align: center;
+    margin: 40px 0;
 }
-
+#stopwatch-img{
+    padding: 30px;
+}
+#stopwatch:hover ,#github:hover, #whatsapp:hover, #weatherapp:hover, #hackathon:hover {
+    transform: scale(1.1);
+    transition: width 2s, height 2s, transform 2s;   
+}
 #github img, #whatsapp img, #weather-img img, #hackathon-img img, #stopwatch-img img {
     width: 100%;
     max-width: 40rem;
